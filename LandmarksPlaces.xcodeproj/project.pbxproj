@@ -17,6 +17,9 @@
 		DB1429D725C1FB3B0084BE5C /* LandmarksPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429D625C1FB3B0084BE5C /* LandmarksPlacesUITests.swift */; };
 		DB1429E925C1FE540084BE5C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429E825C1FE540084BE5C /* CircleImage.swift */; };
 		DB1429F125C1FFF00084BE5C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429F025C1FFF00084BE5C /* MapView.swift */; };
+		DB1429F625C2090D0084BE5C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB1429F525C2090D0084BE5C /* landmarkData.json */; };
+		DB1429FC25C2094C0084BE5C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429FB25C2094C0084BE5C /* Landmark.swift */; };
+		DB142A0425C20C1F0084BE5C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A0325C20C1F0084BE5C /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		DB1429D825C1FB3B0084BE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1429E825C1FE540084BE5C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DB1429F025C1FFF00084BE5C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DB1429F525C2090D0084BE5C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		DB1429FB25C2094C0084BE5C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		DB142A0325C20C1F0084BE5C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		DB1429A825C1FB380084BE5C = {
 			isa = PBXGroup;
 			children = (
+				DB1429F525C2090D0084BE5C /* landmarkData.json */,
 				DB1429B325C1FB380084BE5C /* LandmarksPlaces */,
 				DB1429CA25C1FB3B0084BE5C /* LandmarksPlacesTests */,
 				DB1429D525C1FB3B0084BE5C /* LandmarksPlacesUITests */,
@@ -103,6 +110,8 @@
 		DB1429B325C1FB380084BE5C /* LandmarksPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				DB142A0825C20D8C0084BE5C /* Resources */,
+				DB1429FA25C2091D0084BE5C /* Models */,
 				DB1429E725C1FE420084BE5C /* views */,
 				DB1429B425C1FB380084BE5C /* LandmarksPlacesApp.swift */,
 				DB1429B625C1FB380084BE5C /* ContentView.swift */,
@@ -148,6 +157,22 @@
 				DB1429F025C1FFF00084BE5C /* MapView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		DB1429FA25C2091D0084BE5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB1429FB25C2094C0084BE5C /* Landmark.swift */,
+				DB142A0325C20C1F0084BE5C /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB142A0825C20D8C0084BE5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +280,7 @@
 			files = (
 				DB1429BC25C1FB3A0084BE5C /* Preview Assets.xcassets in Resources */,
 				DB1429B925C1FB3A0084BE5C /* Assets.xcassets in Resources */,
+				DB1429F625C2090D0084BE5C /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1429FC25C2094C0084BE5C /* Landmark.swift in Sources */,
 				DB1429BE25C1FB3A0084BE5C /* Persistence.swift in Sources */,
 				DB1429F125C1FFF00084BE5C /* MapView.swift in Sources */,
 				DB1429C125C1FB3A0084BE5C /* LandmarksPlaces.xcdatamodeld in Sources */,
 				DB1429B725C1FB380084BE5C /* ContentView.swift in Sources */,
+				DB142A0425C20C1F0084BE5C /* ModelData.swift in Sources */,
 				DB1429B525C1FB380084BE5C /* LandmarksPlacesApp.swift in Sources */,
 				DB1429E925C1FE540084BE5C /* CircleImage.swift in Sources */,
 			);
