@@ -21,6 +21,8 @@
 		DB1429FC25C2094C0084BE5C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429FB25C2094C0084BE5C /* Landmark.swift */; };
 		DB142A0425C20C1F0084BE5C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A0325C20C1F0084BE5C /* ModelData.swift */; };
 		DB142A1025C20DD50084BE5C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A0F25C20DD50084BE5C /* LandmarkRow.swift */; };
+		DB142A1825C210C30084BE5C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A1725C210C30084BE5C /* LandmarkList.swift */; };
+		DB142A1D25C215550084BE5C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A1C25C215550084BE5C /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DB1429FB25C2094C0084BE5C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		DB142A0325C20C1F0084BE5C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		DB142A0F25C20DD50084BE5C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		DB142A1725C210C30084BE5C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		DB142A1C25C215550084BE5C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 				DB1429E825C1FE540084BE5C /* CircleImage.swift */,
 				DB1429F025C1FFF00084BE5C /* MapView.swift */,
 				DB142A0F25C20DD50084BE5C /* LandmarkRow.swift */,
+				DB142A1725C210C30084BE5C /* LandmarkList.swift */,
+				DB142A1C25C215550084BE5C /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +323,8 @@
 				DB142A0425C20C1F0084BE5C /* ModelData.swift in Sources */,
 				DB1429B525C1FB380084BE5C /* LandmarksPlacesApp.swift in Sources */,
 				DB1429E925C1FE540084BE5C /* CircleImage.swift in Sources */,
+				DB142A1825C210C30084BE5C /* LandmarkList.swift in Sources */,
+				DB142A1D25C215550084BE5C /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,22 +25,12 @@ struct LandmarkRow: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarks[0])
-            .previewLayout(.fixed(width: 300, height: 70))
-        
-        LandmarkRow(landmark: landmarks[1])
-            .previewLayout(.fixed(width: 300, height: 70))
-        
-        LandmarkRow(landmark: landmarks[2])
-            .previewLayout(.fixed(width: 300, height: 70))
-        
-        LandmarkRow(landmark: landmarks[3])
-            .previewLayout(.fixed(width: 300, height: 70))
-        
-        LandmarkRow(landmark: landmarks[4])
-            .previewLayout(.fixed(width: 300, height: 70))
-        
-        LandmarkRow(landmark: landmarks[5])
-            .previewLayout(.fixed(width: 300, height: 70))
+        Group{
+            ForEach(landmarks){ landmark in
+                LandmarkRow(landmark: landmark)
+            }
+        }
+        .previewLayout(.fixed(width: 300, height: 70))
     }
+   
 }
