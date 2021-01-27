@@ -24,11 +24,18 @@ struct ContentView: View {
                     .font(.title)
                 HStack {
                     Text("Joshua Tree National Park")
-                        .font(.subheadline)
                     Spacer()
                     Text("California")
-                        .font(.subheadline)
-                }//hestack
+                }//hstack
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
+                Divider()
+                
+                Text("About Turtle Rock")
+                    .font(.title2)
+                Text("Descriptive text goes here.")
+                
             }//vstack
             .padding()
             Spacer()
