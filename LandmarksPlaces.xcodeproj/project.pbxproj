@@ -16,6 +16,7 @@
 		DB1429CC25C1FB3B0084BE5C /* LandmarksPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429CB25C1FB3B0084BE5C /* LandmarksPlacesTests.swift */; };
 		DB1429D725C1FB3B0084BE5C /* LandmarksPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429D625C1FB3B0084BE5C /* LandmarksPlacesUITests.swift */; };
 		DB1429E925C1FE540084BE5C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429E825C1FE540084BE5C /* CircleImage.swift */; };
+		DB1429F125C1FFF00084BE5C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1429F025C1FFF00084BE5C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DB1429D625C1FB3B0084BE5C /* LandmarksPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksPlacesUITests.swift; sourceTree = "<group>"; };
 		DB1429D825C1FB3B0084BE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1429E825C1FE540084BE5C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DB1429F025C1FFF00084BE5C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1429E825C1FE540084BE5C /* CircleImage.swift */,
+				DB1429F025C1FFF00084BE5C /* MapView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1429BE25C1FB3A0084BE5C /* Persistence.swift in Sources */,
+				DB1429F125C1FFF00084BE5C /* MapView.swift in Sources */,
 				DB1429C125C1FB3A0084BE5C /* LandmarksPlaces.xcdatamodeld in Sources */,
 				DB1429B725C1FB380084BE5C /* ContentView.swift in Sources */,
 				DB1429B525C1FB380084BE5C /* LandmarksPlacesApp.swift in Sources */,
