@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct LandmarkRow: View {
+    
     var landmark: Landmark
+    
     
     var body: some View {
         HStack{
@@ -20,16 +22,19 @@ struct LandmarkRow: View {
             
             Spacer()
             
-            Image(systemName: landmark.isFavorite ? "star.fill" : "star")
-                .foregroundColor(landmark.isFavorite ? .yellow : .gray)
-                .padding(.trailing, 6)
-                
+            if(landmark.isFavorite){
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+                    .padding(.trailing, 8)
+            }
                 
         }
     }
 }
 
 struct RowView_Previews: PreviewProvider {
+    static var landmarks = ModelData().landmarks
+    
     static var previews: some View {
         Group{
             ForEach(landmarks){ landmark in
