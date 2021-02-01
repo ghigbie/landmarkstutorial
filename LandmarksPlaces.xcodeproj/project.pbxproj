@@ -23,6 +23,7 @@
 		DB142A1025C20DD50084BE5C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A0F25C20DD50084BE5C /* LandmarkRow.swift */; };
 		DB142A1825C210C30084BE5C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A1725C210C30084BE5C /* LandmarkList.swift */; };
 		DB142A1D25C215550084BE5C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB142A1C25C215550084BE5C /* LandmarkDetail.swift */; };
+		DB163A4425C8591E00CAF435 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB163A4325C8591E00CAF435 /* HexagonParameters.swift */; };
 		DB752AFE25C3B371007FF7D7 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB752AFD25C3B371007FF7D7 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		DB142A0F25C20DD50084BE5C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		DB142A1725C210C30084BE5C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DB142A1C25C215550084BE5C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		DB163A4325C8591E00CAF435 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		DB752AFD25C3B371007FF7D7 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 		DB1429A825C1FB380084BE5C = {
 			isa = PBXGroup;
 			children = (
+				DB163A4325C8591E00CAF435 /* HexagonParameters.swift */,
 				DB1429F525C2090D0084BE5C /* landmarkData.json */,
 				DB1429B325C1FB380084BE5C /* LandmarksPlaces */,
 				DB1429CA25C1FB3B0084BE5C /* LandmarksPlacesTests */,
@@ -342,6 +345,7 @@
 				DB1429B725C1FB380084BE5C /* ContentView.swift in Sources */,
 				DB142A0425C20C1F0084BE5C /* ModelData.swift in Sources */,
 				DB1429B525C1FB380084BE5C /* LandmarksPlacesApp.swift in Sources */,
+				DB163A4425C8591E00CAF435 /* HexagonParameters.swift in Sources */,
 				DB1429E925C1FE540084BE5C /* CircleImage.swift in Sources */,
 				DB142A1825C210C30084BE5C /* LandmarkList.swift in Sources */,
 				DB142A1D25C215550084BE5C /* LandmarkDetail.swift in Sources */,
